@@ -20,9 +20,11 @@ project "GLFW"
 		"src/monitor.c",
 		"src/platform.c",
 		"src/null_init.c",
+		"src/egl_context.c",
 		"src/null_window.c",
 		"src/null_monitor.c",
-		"src/null_joystick.c"
+		"src/null_joystick.c",
+		"src/osmesa_context.c"
 
 	}
 
